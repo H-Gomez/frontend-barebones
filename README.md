@@ -1,6 +1,8 @@
 # Frontend Barebones
 
-A barebones front-end development environment which handles the setup of ESLint, Prettier, Parcel and other development dependencies.
+A barebones front-end development environment which handles the setup of ESLint, Prettier, Parcel and other development dependencies. 
+
+Run `npm install` to get started. That's it. 
 
 # What's Included
 ### Dev Dependecies
@@ -17,9 +19,12 @@ A barebones front-end development environment which handles the setup of ESLint,
 
 ### Files
 `.env` - Store environment variables here. 
+
 `.prettierrc` - Specific rule overrides for Prettier in regards of code formatting. 
+
 `.eslintrc` - Configuration for ESLint. In this instance informs it was ES version to validate to and to run Prettier. 
 
 ### Scripts
 `format` - Runs Prettier against all JS, JSX, CSS, HTML and JSON files in the /src directory.
+
 `lint` - Runs ESLint against all JS and JSX files. 

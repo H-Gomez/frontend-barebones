@@ -4,6 +4,7 @@
   "description": "A barebones front-end development environment which handles the setup of ESLint, Prettier, Parcel and other development dependencies.",
   "main": "index.js",
   "scripts": {
+    "dev": "parcel src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1",
     "format": "prettier --write \"src/**/*.{js,css,html,json}\"",
     "lint": "eslint src/**.js"
@@ -22,8 +23,14 @@
   "devDependencies": {
     "eslint": "^5.13.0",
     "eslint-config-prettier": "^4.0.0",
+    "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.14.3",
     "parcel-bundler": "^1.11.0",
     "prettier": "^1.16.4"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   }
 }
